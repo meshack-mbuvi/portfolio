@@ -74,7 +74,7 @@ export const projects = [
     title: "Syndicate dashboard",
     des: "Startups and Fortune 500 companies use Syndicate’s APIs and infrastructure to build highly scalable, user-friendly, web3-powered products with their existing stack.",
     img: "/syndicate.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
     link: "https://syndicate.io",
   },
   {
@@ -173,7 +173,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Web3 Developer",
-    desc: "Led the development of innovative Web3 applications, focusing on decentralized technologies. Created user-friendly interfaces, integrated blockchain features, and ensured seamless interaction with smart contracts. Specialized in React, Web3.js, and Ethereum, delivering robust and responsive DApps.",
+    desc: "Led the development of innovative Web3 applications, focusing on decentralized technologies. Created user-friendly interfaces, integrated blockchain features, and ensured seamless interaction with smart contracts. Specialized in React, Web3.js, Next.js and Typescript, delivering robust and responsive DApps.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -187,8 +187,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Fullstack Developer",
-    desc: "As the Technical Team Lead for Andela Meals, an internal product used daily by 1200 users, I spearheaded the development and delivery of innovative solutions. I guided a team of talented engineers, leveraging my expertise in software architecture and project management to facilitate seamless collaboration and ensure project alignment.",
-    className: "md:col-span-2",
+    desc: "Spearheaded the implementation of a pixel-perfect user interface by meticulously adhering to design specifications and utilizing advanced front-end technologies. Utilized responsive design principles and conducted thorough cross-browser testing to guarantee optimal UI performance across various devices and platforms. Implemented a modular and scalable front-end architecture, utilizing front end frameworks to ensure maintainability and extensibility in response to evolving design requirements.",
     thumbnail: "/exp3.svg",
   },
   {

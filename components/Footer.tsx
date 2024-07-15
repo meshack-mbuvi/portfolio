@@ -37,7 +37,7 @@ const Footer = () => {
           Copyright © 2024 Meshack Mbuvi
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center mt-2 md:mt-0 md:gap-3 gap-6">
           {socialMedia.map(({ id, link, img }) => (
             <a
               key={id}

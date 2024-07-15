@@ -54,15 +54,17 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <a
-                  href={link}
-                  target="_blank"
-                  className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </a>
+                {link && (
+                  <a
+                    href={link}
+                    target="_blank"
+                    className="flex justify-center items-center">
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                      Check Live Site
+                    </p>
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </a>
+                )}
               </div>
             </PinContainer>
           </div>

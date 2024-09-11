@@ -106,6 +106,13 @@ export const projects = [
 export const testimonials = [
   {
     quote:
+      "Meshack has been one of Syndicate's earliest team members and laid a very strong foundation for our success. His experience with both well-established development frameworks and emerging tech is phenomenal. I would strongly recommend him, especially for roles where you need someone who can pick up new technologies quickly and take on leadership to bring them forward. In addition, he is excellent at recruiting and has a strong network that can help a company grow. Any company would be lucky to work with Meshack",
+    name: "Will Papper",
+    title: "Co-Founder @syndicate",
+    avatar: "/will.jpeg",
+  },
+  {
+    quote:
       "Meshack is a skilled and thoughtful engineer, during our time together at Syndicate he built e2e features quickly and efficiently while always thinking about reusability in the code. He is always looking to help and find ways to meaningfully contribute to the product.He would be an asset to any engineering team",
     name: "Sam Mason de Caires",
     title: "Staff Engineer @syndicate",

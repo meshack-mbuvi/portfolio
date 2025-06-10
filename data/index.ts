@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "My stack",
+    description: "Always learning",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -92,6 +92,14 @@ export const projects = [
     img: "/promptopia.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
     link: "https://promptopia-seven-pi.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Triply",
+    des: "A simple travel website that allows users to perform CRUD (Create, Read, Update, Delete) operations for trips. This project demonstrates a fullstack application using Node.js, PostgreSQL, and Vue.js (Pinia).",
+    img: "/triply.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://frontend-pi-eosin-75.vercel.app/",
   },
   // {
   //   id: 4,

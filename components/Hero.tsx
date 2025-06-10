@@ -42,7 +42,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Dynamic Web Magic with React, TailwindCSS and Next.js
           </p>
 
           {/**
@@ -56,8 +56,10 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Meshack, a Fullstack and Web3.js Developer based in
-            Kenya.
+            Hi, I’m Meshack, a Fullstack Developer passionate
+            about crafting modern web experiences using NestJS, React, Next.js,
+            and TailwindCSS. I’m currently based in Kenya and focused on
+            building fast, clean, and maintainable applications.
           </p>
 
           <a href="#about">

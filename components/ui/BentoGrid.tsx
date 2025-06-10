@@ -51,7 +51,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "Next.js", "Typescript"];
-  const rightLists = ["Web3.js", "Solidity", "GraphQL"];
+  const rightLists = ["Nodejs", "TailwindCSS", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -135,26 +135,22 @@ export const BentoGridItem = ({
 
           {/* Tech stack list div */}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+            <div className="flex gap-2 lg:gap-5 w-fit absolute right-4 top-0 z-10">
+              {/* Tech stack lists */}
+              <div className="flex pt-2 flex-col gap-2 lg:gap-4">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                    className="py-2 px-3 lg:py-4 lg:px-4 text-xs lg:text-base opacity-70 lg:opacity-100 rounded-lg text-center bg-[#10132E] text-white">
                     {item}
                   </span>
                 ))}
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+              <div className="flex flex-col gap-2 lg:gap-4">
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                    className="py-2 px-3 lg:py-4 lg:px-4 text-xs lg:text-base opacity-70 lg:opacity-100 rounded-lg text-center bg-[#10132E] text-white">
                     {item}
                   </span>
                 ))}
